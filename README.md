@@ -2,6 +2,11 @@
 
 这是一个改变伪元素样式的方法。
 
+在工作偶尔会遇到改变伪元素样式的场景，虽然也有很多解决方法，
+
+但是这个方法能让你**像操作正常元素一样操作伪元素样式**。
+
+
 ```
 function ruleSelector(selector) {
   function uni(selector) {
